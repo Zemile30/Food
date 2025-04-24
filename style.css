@@ -33,9 +33,6 @@ header .btn1 {
   display: none;
 }
 @media (max-width: 992px) {
-  header .imgbox {
-    margin-left: -120px;
-  }
   header nav {
     display: none;
   }
@@ -109,6 +106,15 @@ header .btn1 {
   #beautiful .box h4 {
     margin-bottom: 80px;
   }
+  #beautiful .imgbox {
+    width: 500px;
+    margin-left: 110px;
+  }
+}
+@media (max-width: 576px) {
+  #beautiful .imgbox {
+    margin-left: 0;
+  }
 }
 
 #thehome {
@@ -139,13 +145,28 @@ header .btn1 {
 @media (max-width: 992px) {
   #thehome .textbox {
     text-align: center;
-    margin: 0 110px;
+    margin: 0 85px;
   }
   #thehome .textbox .btn {
-    margin-bottom: 80px;
+    margin: 0 75px 80px 0;
   }
   #thehome .imgbox {
-    margin: 0 80px;
+    margin-left: 50px;
+  }
+}
+@media (max-width: 576px) {
+  #thehome .textbox {
+    margin: 0 50px;
+  }
+  #thehome .textbox h5 {
+    margin: 25px 55px 50px 20px;
+  }
+  #thehome .textbox .btn {
+    padding: 13px 60px;
+    margin-right: 40px;
+  }
+  #thehome .imgbox {
+    margin-left: 0;
   }
 }
 
@@ -179,20 +200,11 @@ header .btn1 {
     flex-direction: column;
     align-items: center;
   }
-  #works .box .textbox {
-    padding: 35px 140px;
-  }
   #works .box .textbox h4 {
     margin-bottom: 80px;
   }
   #works .box .imgbox {
-    width: 500px;
     margin: 30px 0;
-  }
-}
-@media (max-width: 576px) {
-  #works .box .textbox {
-    padding: 35px 125px;
   }
 }
 
@@ -311,9 +323,6 @@ header .btn1 {
     display: flex;
     flex-direction: column;
   }
-  #browse .box1 .btn {
-    padding: 15px 200px;
-  }
   #browse .box .imgbox {
     width: 400px;
   }
@@ -369,7 +378,6 @@ header .btn1 {
   #order .textbox {
     text-align: center;
     width: 500px;
-    margin: 0 110px;
   }
   #order .textbox h1 {
     width: 400px;
