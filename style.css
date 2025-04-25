@@ -115,6 +115,13 @@ header .btn1 {
   #beautiful .imgbox {
     margin-left: 0;
   }
+  #beautiful .box h1 {
+    margin: 0;
+    font-size: 55px;
+  }
+  #beautiful .box h5 {
+    margin: 25px 0 50px;
+  }
 }
 
 #thehome {
@@ -156,7 +163,7 @@ header .btn1 {
 }
 @media (max-width: 576px) {
   #thehome .textbox {
-    margin: 0 50px;
+    margin: 0;
   }
   #thehome .textbox h5 {
     margin: 25px 55px 50px 20px;
@@ -166,7 +173,8 @@ header .btn1 {
     margin-right: 40px;
   }
   #thehome .imgbox {
-    margin-left: 0;
+    width: 400px;
+    margin-left: -20px;
   }
 }
 
@@ -347,6 +355,14 @@ header .btn1 {
     width: auto;
   }
 }
+@media (max-width: 400px) {
+  #browse .box .imgbox {
+    margin-left: 0;
+  }
+  #browse .box .textbox {
+    margin-left: 0;
+  }
+}
 
 #order .imgbox {
   width: 600px;
@@ -397,10 +413,19 @@ header .btn1 {
     margin-left: -50px;
     padding: 0 50px;
   }
+  #order .textbox h5 {
+    margin: 25px 30px 50px 0;
+  }
+  #order .textbox .btn {
+    padding: 13px 70px;
+    margin-left: 30px;
+  }
 }
 
 #callour {
-  background-color: #f1f8f9;
+  background-image: url(assets/3.svg);
+  background-position: top right;
+  background-repeat: no-repeat;
 }
 #callour .textbox h1 {
   font-weight: 700;
@@ -428,15 +453,18 @@ header .btn1 {
     text-align: center;
   }
   #callour .textbox h5 {
-    margin: 50px;
+    margin: 40px;
   }
   #callour .imgbox {
     margin-left: 60px;
   }
 }
 @media (max-width: 576px) {
+  #callour .textbox {
+    margin: 0 0 80px 50px;
+  }
   #callour .textbox h5 {
-    margin: 50px 0;
+    margin: 50px 20px;
   }
   #callour .textbox .btn {
     padding: 13px 50px;
@@ -468,21 +496,32 @@ header .btn1 {
 }
 @media (max-width: 992px) {
   #support .imgbox {
-    height: 400px;
+    height: 350px;
     margin: 20px 0;
   }
   #support .textbox {
     padding: 50px 0;
+  }
+  #support .textbox h1 {
+    padding-right: 60px;
   }
   #support .textbox .btn {
     margin: 30px;
   }
 }
 @media (max-width: 576px) {
+  #support .imgbox {
+    height: auto;
+  }
+  #support .textbox {
+    padding: 60px 0;
+  }
   #support .textbox h1 {
     margin: 0 10px 0 10px;
+    font-size: 50px;
   }
   #support .textbox .btn {
-    padding: 10px 40px;
+    padding: 10px 80px;
+    margin: 40px 10px 0;
   }
 }/*# sourceMappingURL=style.css.map */
