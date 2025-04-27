@@ -112,9 +112,13 @@ header .btn1 {
     margin-left: 110px;
   }
 }
+@media (max-width: 768px) {
+  #beautiful .imgbox {
+    margin-left: 50px;
+  }
+}
 @media (max-width: 576px) {
   #beautiful .imgbox {
-    margin-left: 0;
     width: 370px;
   }
   #beautiful .box h1 {
@@ -161,6 +165,17 @@ header .btn1 {
   }
   #thehome .imgbox {
     margin-left: 50px;
+  }
+}
+@media (max-width: 768px) {
+  #thehome .textbox h5 {
+    margin: 25px 40px 50px 40px;
+  }
+  #thehome .textbox .btn {
+    margin: 0 50px 80px 30px;
+  }
+  #thehome .imgbox {
+    margin-left: 0;
   }
 }
 @media (max-width: 576px) {
@@ -216,6 +231,11 @@ header .btn1 {
   }
   #works .box .imgbox {
     margin: 30px 0;
+  }
+}
+@media (max-width: 768px) {
+  #works .box .textbox h4 {
+    padding: 0 60px;
   }
 }
 @media (max-width: 576px) {
@@ -405,6 +425,17 @@ header .btn1 {
     margin-right: 70px;
   }
 }
+@media (max-width: 768px) {
+  #order .imgbox {
+    width: 700px;
+  }
+  #order .textbox h5 {
+    margin: 25px 50px 50px 30px;
+  }
+  #order .textbox .btn {
+    margin-right: 20px;
+  }
+}
 @media (max-width: 576px) {
   #order .imgbox {
     width: 400px;
@@ -462,6 +493,14 @@ header .btn1 {
   }
   #callour .imgbox {
     margin-left: 60px;
+  }
+}
+@media (max-width: 768px) {
+  #callour .textbox h5 {
+    margin: 40px 10px;
+  }
+  #callour .imgbox {
+    margin-left: 20px;
   }
 }
 @media (max-width: 576px) {
