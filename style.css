@@ -188,6 +188,7 @@ header .btn1 {
   }
   #thehome .textbox h1 {
     width: 280px;
+    margin-left: 50px;
   }
   #thehome .textbox h5 {
     margin: 25px 55px 50px 20px;
@@ -198,7 +199,6 @@ header .btn1 {
   }
   #thehome .imgbox {
     width: 330px;
-    margin-left: -20px;
   }
 }
 
@@ -234,7 +234,7 @@ header .btn1 {
   }
   #works .box .textbox h4 {
     padding: 0 90px;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
   }
   #works .box .imgbox {
     margin: 30px 0;
@@ -432,7 +432,7 @@ header .btn1 {
 }
 @media (max-width: 576px) {
   #order .imgbox {
-    width: 380px;
+    width: auto;
     margin-left: 15px;
   }
   #order .textbox {
@@ -508,6 +508,7 @@ header .btn1 {
     padding: 13px 50px;
   }
   #callour .imgbox {
+    width: auto;
     margin-left: -20px;
   }
 }
