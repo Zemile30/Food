@@ -39,7 +39,7 @@ header .btn1 {
   header .box .btn1 {
     display: block;
     background-color: #e4e0e0;
-    padding: 15px;
+    padding: 16px;
     border-radius: 5px;
     margin-right: -50px;
   }
@@ -321,7 +321,7 @@ header .btn1 {
 #browse .box .textbox .add .btn {
   background-color: #4abbc3;
   color: white;
-  padding: 8px 20px;
+  padding: 9px 20px;
 }
 #browse .big {
   padding: 17px 53px;
@@ -380,7 +380,6 @@ header .btn1 {
     width: 350px;
   }
   #browse .box .textbox {
-    margin-left: 30px;
     width: auto;
   }
 }
